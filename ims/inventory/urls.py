@@ -1,8 +1,8 @@
 from django.urls import path
-from .views import index
+from .views import inventory_list
 from . import views
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('', inventory_list, name='inventory_list'),
     # path('item/<int:item_id>/', views.item_detail, name='item_detail'),
     # path('item/new/', views.item_new, name='item_new'),
     # path('item/<int:item_id>/edit/', views.item_edit, name='item_edit'),
