@@ -1,9 +1,11 @@
-body{
-    background-color: beige;
+body {
+    background-color: green;
 }
-.content-section{
-    background: beige;
-    margin: 40px;
-    padding: 1.5rem 1.5rem;
-    border-radius: 10px; 
+.content-section {
+    background: green;
+    margin: 200px auto; /* Centered margin */
+    padding: 1.5rem;
+    border-radius: 30px; /* Smaller radius for better fit on smaller screens */
+    max-width: 800px; /* Constrain width to avoid stretching */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional styling */
 }
